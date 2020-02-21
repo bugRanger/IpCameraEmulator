@@ -1,0 +1,13 @@
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\EmulatorChannel\bin\Debug\Emulator.dll
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\EmulatorChannel\bin\Debug\Emulator.pdb
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\EmulatorChannel\obj\Debug\Emulator.csproj.CoreCompileInputs.cache
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\EmulatorChannel\obj\Debug\Emulator.dll
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\EmulatorChannel\obj\Debug\Emulator.pdb
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\Debug\Emulator.dll
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\Debug\Emulator.pdb
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\EmulatorChannel\obj\Debug\Emulator.csprojAssemblyReference.cache
+D:\Projects\IP-Camera-Emulator\Debug\Emulator.dll
+D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Debug\Emulator.csproj.CoreCompileInputs.cache
+D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Debug\Emulator.dll
+D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Debug\Emulator.pdb
+D:\Projects\IP-Camera-Emulator\Debug\Emulator.pdb

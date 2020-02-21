@@ -1,0 +1,13 @@
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\bin\Debug\IpCameraEmulator.exe.config
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\bin\Debug\IpCameraEmulator.exe
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\bin\Debug\IpCameraEmulator.pdb
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\bin\Debug\Emulator.dll
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\bin\Debug\Emulator.pdb
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.csprojAssemblyReference.cache
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.csproj.CoreCompileInputs.cache
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.csproj.CopyComplete
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.exe
+D:\Projects\IP-Camera-Emulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.pdb
+D:\Projects\IP-Camera-Emulator\Debug\IpCameraEmulator.exe.config
+D:\Projects\IP-Camera-Emulator\Debug\IpCameraEmulator.exe
+D:\Projects\IP-Camera-Emulator\Debug\IpCameraEmulator.pdb

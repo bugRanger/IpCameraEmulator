@@ -1,0 +1,14 @@
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\bin\x86\Debug\RtspStreamLibTest.exe.config
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\bin\x86\Debug\RtspStreamLibTest.exe
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\bin\x86\Debug\RtspStreamLibTest.pdb
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.csproj.CoreCompileInputs.cache
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.exe
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.pdb
+C:\Users\anikaevni\Downloads\IP-Camera-Emulator-master\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.csprojAssemblyReference.cache
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\bin\x86\Debug\RtspStreamLibTest.exe.config
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\bin\x86\Debug\RtspStreamLibTest.exe
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\bin\x86\Debug\RtspStreamLibTest.pdb
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.csproj.CoreCompileInputs.cache
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.exe
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.pdb
+D:\Projects\IP-Camera-Emulator\RtspStreamLibTest\obj\x86\Debug\RtspStreamLibTest.csprojAssemblyReference.cache
