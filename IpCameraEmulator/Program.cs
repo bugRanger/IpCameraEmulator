@@ -89,6 +89,8 @@ namespace IpCameraEmulator
                 do
                 {
                     infoKey = Console.ReadKey();
+                    Console.WriteLine();
+
                     switch (infoKey.Key)
                     {
                         case ConsoleKey.R:
