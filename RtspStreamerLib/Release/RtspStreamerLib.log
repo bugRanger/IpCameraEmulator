@@ -1,8 +1,0 @@
-﻿  stdafx.cpp
-  dllmain.cpp
-  RtspStreamerLib.cpp
-     Creating library D:\Projects\IP-Camera-Emulator\Release\RtspStreamerLib.lib and object D:\Projects\IP-Camera-Emulator\Release\RtspStreamerLib.exp
-  Generating code
-  All 119 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  RtspStreamerLib.vcxproj -> D:\Projects\IP-Camera-Emulator\Release\RtspStreamerLib.dll

@@ -1,8 +1,0 @@
-D:\Projects\ipcameraemulator\Debug\IpCameraEmulator.exe.config
-D:\Projects\ipcameraemulator\Debug\IpCameraEmulator.exe
-D:\Projects\ipcameraemulator\Debug\IpCameraEmulator.pdb
-D:\Projects\ipcameraemulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.csprojAssemblyReference.cache
-D:\Projects\ipcameraemulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.csproj.CoreCompileInputs.cache
-D:\Projects\ipcameraemulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.csproj.CopyComplete
-D:\Projects\ipcameraemulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.exe
-D:\Projects\ipcameraemulator\IpCameraEmulator\obj\Debug\IpCameraEmulator.pdb

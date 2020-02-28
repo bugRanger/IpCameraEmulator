@@ -1,8 +1,0 @@
-D:\Projects\IP-Camera-Emulator\EmulatorChannel\bin\Release\Emulator.dll
-D:\Projects\IP-Camera-Emulator\EmulatorChannel\bin\Release\Emulator.pdb
-D:\Projects\IP-Camera-Emulator\Release\Emulator.dll
-D:\Projects\IP-Camera-Emulator\Release\Emulator.pdb
-D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Release\Emulator.csproj.CoreCompileInputs.cache
-D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Release\Emulator.dll
-D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Release\Emulator.pdb
-D:\Projects\IP-Camera-Emulator\EmulatorChannel\obj\Release\Emulator.csprojAssemblyReference.cache

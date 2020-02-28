@@ -9,16 +9,15 @@ namespace Emulator
 {
     public enum ChannelStatus
     {
-        Unknown = -2,
-        CriticalError = -1,
-        Started = 1539,
-        Stopped = 1540,
-        Init = 1541,
-        Opening = 1542,
-        Playing = 1543,
-        Pause = 1544,
-        End = 1545,
-        Error = 1546
+        Unknown = RtspStreamerLib.STATUS_UNKNOWN,
+        Init = RtspStreamerLib.STATUS_INIT,
+        Started = RtspStreamerLib.STATUS_STARTED,
+        Stopped = RtspStreamerLib.STATUS_STOPPED,
+        Opening = RtspStreamerLib.STATUS_OPENING,
+        Playing = RtspStreamerLib.STATUS_PLAYING,
+        Pause = RtspStreamerLib.STATUS_PAUSE,
+        End = RtspStreamerLib.STATUS_END,
+        Error = RtspStreamerLib.STATUS_ERROR
     }
 
     public class EmulatorChannel

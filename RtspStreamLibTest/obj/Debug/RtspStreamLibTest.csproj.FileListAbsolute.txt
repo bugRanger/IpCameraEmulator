@@ -1,7 +1,0 @@
-D:\Projects\ipcameraemulator\RtspStreamLibTest\bin\Debug\RtspStreamLibTest.exe.config
-D:\Projects\ipcameraemulator\RtspStreamLibTest\bin\Debug\RtspStreamLibTest.exe
-D:\Projects\ipcameraemulator\RtspStreamLibTest\bin\Debug\RtspStreamLibTest.pdb
-D:\Projects\ipcameraemulator\RtspStreamLibTest\obj\Debug\RtspStreamLibTest.csproj.CoreCompileInputs.cache
-D:\Projects\ipcameraemulator\RtspStreamLibTest\obj\Debug\RtspStreamLibTest.exe
-D:\Projects\ipcameraemulator\RtspStreamLibTest\obj\Debug\RtspStreamLibTest.pdb
-D:\Projects\ipcameraemulator\RtspStreamLibTest\obj\Debug\RtspStreamLibTest.csprojAssemblyReference.cache

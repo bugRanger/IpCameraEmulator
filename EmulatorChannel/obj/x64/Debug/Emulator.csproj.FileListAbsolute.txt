@@ -1,7 +1,0 @@
-D:\Projects\ipcameraemulator\EmulatorChannel\bin\x64\Debug\Emulator.dll
-D:\Projects\ipcameraemulator\EmulatorChannel\bin\x64\Debug\Emulator.pdb
-D:\Projects\ipcameraemulator\EmulatorChannel\obj\x64\Debug\Emulator.csproj.CoreCompileInputs.cache
-D:\Projects\ipcameraemulator\EmulatorChannel\obj\x64\Debug\Emulator.dll
-D:\Projects\ipcameraemulator\EmulatorChannel\obj\x64\Debug\Emulator.pdb
-D:\Projects\ipcameraemulator\Debug\Emulator.dll
-D:\Projects\ipcameraemulator\Debug\Emulator.pdb

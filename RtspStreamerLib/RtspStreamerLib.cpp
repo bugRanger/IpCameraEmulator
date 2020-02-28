@@ -123,31 +123,38 @@ void CRtspStreamerLib::CloseInstance()
 
 int CRtspStreamerLib::StartStream(char* streamName, char* mediaPath, int portNumber)
 {
-	if (mediaPath != NULL)
-	{
-		//DWORD threadId = 0;
-		_StreamName = streamName;
-		_MediaPath = mediaPath;
-		_Port = portNumber;
-		InitiateStreaming();
-		return RET_SUCCESS;
-	}
-	else return RET_FAILED;
+	if (mediaPath == NULL || mediaPath[0] == '\0' || portNumber <= 0 || portNumber > UINT16_MAX)
+		return RET_FAILED;
+
+	_StreamName = streamName;
+	_MediaPath = mediaPath;
+	_Port = portNumber;
+
+	InitiateStreaming();
+	_IsStreaming = TRUE;
+
+	return RET_SUCCESS;
 }
 
 void CRtspStreamerLib::StopStream()
 {
-	if (_Event_Mgr != NULL)
+	if (_VlcInstance != NULL)
 	{
-		libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusPlaying, CallbackEvent, this);
-		libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStopped, CallbackEvent, this);
-		libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusEnd, CallbackEvent, this);
-		libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusPause, CallbackEvent, this);
-		libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusError, CallbackEvent, this);
+		libvlc_vlm_stop_media(_VlcInstance, _StreamName.c_str());
+		libvlc_vlm_del_media(_VlcInstance, _StreamName.c_str());
+
+		if (_Event_Mgr != NULL)
+		{
+			libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusPlaying, CallbackEvent, this);
+			libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStopped, CallbackEvent, this);
+			libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusEnd, CallbackEvent, this);
+			libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusPause, CallbackEvent, this);
+			libvlc_event_detach(_Event_Mgr, libvlc_VlmMediaInstanceStatusError, CallbackEvent, this);
+		}
+
+		libvlc_vlm_release(_VlcInstance);
 	}
-	libvlc_vlm_stop_media(_VlcInstance, _StreamName.c_str());
-	libvlc_vlm_del_media(_VlcInstance, _StreamName.c_str());
-	libvlc_vlm_release(_VlcInstance);
+
 	_VlcInstance = NULL;
 	_IsStreaming = FALSE;
 }
@@ -176,58 +183,22 @@ void CRtspStreamerLib::InitiateStreaming()
 
 void CRtspStreamerLib::RestartStreaming()
 {
-	if (_VlcInstance != NULL)
-	{
-		libvlc_vlm_stop_media(_VlcInstance, _StreamName.c_str());
-		libvlc_vlm_play_media(_VlcInstance, _StreamName.c_str());
-	}
+	if (_VlcInstance == NULL)
+		return;
+
+	libvlc_vlm_stop_media(_VlcInstance, _StreamName.c_str());
+	libvlc_vlm_play_media(_VlcInstance, _StreamName.c_str());
 }
 
 void CRtspStreamerLib::CallbackEvent(const libvlc_event_t* event, void* ptr)
 {
 	CRtspStreamerLib* self = reinterpret_cast<CRtspStreamerLib*>(ptr);
-	switch (event->type) 
-	{
-		case libvlc_VlmMediaInstanceStatusPlaying:
-		{
-			self->_IsStreaming = TRUE;
-			break;
-		}
-
-		case libvlc_VlmMediaInstanceStopped:
-		case libvlc_VlmMediaInstanceStatusPause:
-		case libvlc_VlmMediaInstanceStatusEnd:
-		{
-			self->_IsStreaming = FALSE;
-			break;
-		}
-
-		case libvlc_VlmMediaInstanceStatusError:
-		{
-			//self->RestartStreaming();
-			break;
-		}
-
-		default:
-			break;
-	}
-
 	self->_status = event->type;
-	//if (event->type == libvlc_VlmMediaInstanceStatusPlaying)
-	//{
-	//	//thread th(&CRtspStreamerLib::RestartStreaming, self);
-	//	//th.detach();
-	//}
 }
+
 int CRtspStreamerLib::GetStreamRate()
 {
-	if (_VlcInstance != NULL)
-	{
-		return _status;
-		// Упрощаем работу, отказываемся от насилия над потоком в пользу событий.
-		//return libvlc_vlm_get_media_instance_rate(_VlcInstance, _StreamName.c_str(), 0);
-	}
-	return RET_FAILED;
+	return _status;
 }
 
 char* CRtspStreamerLib::GetVlcVersion()

@@ -80,8 +80,9 @@ namespace Emulator
                 StartStream();
                 Console.WriteLine("Started stream on Port " + RtspPort);
             }
-            catch
+            catch(Exception ex)
             {
+                Console.WriteLine(ex);
                 throw;
             }
         }
